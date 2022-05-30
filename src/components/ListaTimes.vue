@@ -1,0 +1,12 @@
+<script></script>
+<template>
+  <h1>Times:</h1>
+  <ul>
+    <li>Fluminense</li>
+    <li>Flamengo</li>
+    <li>Corinthians</li>
+    <li>Palmeiras</li>
+    <li>Grêmio</li>
+  </ul>
+</template>
+<style></style>

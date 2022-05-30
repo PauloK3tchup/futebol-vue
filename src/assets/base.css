@@ -1,0 +1,120 @@
+body{
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+    Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  margin: 0%;
+}
+
+header{
+  background-color: crimson;
+  padding: 25px;
+}
+
+header h3{
+  text-decoration: none;
+  font-size: 20px;
+  display: inline-block;
+  padding: 10px;
+  color: white;
+
+  transition: 0.25s;
+}
+
+header h3:hover{
+  transform: scale(1.2);
+}
+
+footer{
+  background-color: crimson;
+  padding: 25px;
+  color: white;
+  font-size: 20px;
+  width: 100%;
+  left: 0;
+  bottom: 0;
+  position: fixed;
+}
+
+div#times{
+  display: none;
+}
+
+.checkbox-times{
+  background-color: crimson;
+  font-size: 15px;
+  padding: 15px;
+  margin: 5px;
+  color: white;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 5px;
+  width: fit-content;
+}
+
+.content{
+  padding: 10px;
+  margin: 15px;
+}
+
+.bem-vindo h1{
+  font-size: 50px;
+}
+
+form input#nome-jogador{
+  padding: 5px;
+  font-size: 15px;
+  border-radius: 5px;
+  margin: 3px;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+}
+
+form select{
+  margin: 5px;
+  padding: 5px;
+  border-radius: 5px;
+  background-color: crimson;
+  color: white;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  cursor: pointer;
+}
+
+button.Enviar {
+  background-color: crimson;
+  font-size: 15px;
+  padding: 15px;
+  margin: 5px;
+  color: white;
+  font-family: Inter, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu,
+  Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  border-radius: 5px;
+  cursor: pointer;
+
+  transition: 0.25s;
+}
+
+button.Enviar:hover{
+  transform: scale(1.1) rotate(5deg);
+}
+
+option#zag{
+  background-color: rgb(255, 111, 0);
+  color: black;
+}
+
+option#lib{
+  background-color: rgb(238, 255, 0);
+  color: black;
+}
+option#ata{
+  background-color: rgb(78, 194, 0);
+  color: white;
+}
+option#vol{
+  background-color: rgb(8, 0, 255);
+  color: white;
+}
+option#ala{
+  background-color: rgb(153, 0, 255);
+  color: white;
+}
